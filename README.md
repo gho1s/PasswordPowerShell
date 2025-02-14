@@ -7,7 +7,7 @@ $passwordLength = 16
 $uppercaseLetters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 $lowercaseLetters = 'abcdefghijklmnopqrstuvwxyz'
 $numbers = '0123456789'
-$specialCharacters = '!@#$%^&*()-_=+[]{}|;:,.<>?/'
+$specialCharacters = '!@$%^&*()-_=+[]{}|;:,.<>?/'
  
 # Combine all character sets into one
 $allCharacters = $uppercaseLetters + $lowercaseLetters + $numbers + $specialCharacters
